@@ -5,23 +5,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Personal Information </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>P.Pavithra Reddy</h1>
-        <p>Undergraduate Student</p>
+        <h1>P Pavithra Reddy</h1>
+        
     </header>
 
-    <section class="about">
-        <h2>About Me</h2>
+    <section class="About">
+        <h2>Profile</h2>
+<p>Undergraduate Student</p>
         <p>
            
-          I am Pavithra Reddy. I am a person with a lot of enthusiasm to explore & learn new things. I am self-reliant, optimistic, highly organized & a people person. I believe that my enthusiasm and willingness to learn make me a strong candidate.“ I am Looking for opportunities to incorporate my skills.
+          I am Pavithra Reddy currently pursuing my bachelor of technology in Mlr Institute. Eager to Learn and explore new      
+        technologies and Looking for bring my skills and innovative mindset.
     </section>
 
-    <section class="accomplishments">
+    <section class="Accomplishments">
         <h2>Education</h2>
         <ul>
             <li> Marri laxman Reddy Institute of Technology andMmanagement,B Tech, CSE-AIML ,2022-2026</li>
@@ -30,7 +32,17 @@
             
         </ul>
     </section>
-    <section class="about">
+    <section class="Achievements :">
+        <h2>Achievements :</h2>
+        <ul>
+            <li>
+                Google Certified AI-ML 
+            </li>
+            <li>Zscalar Cyber Security Virtual Internship </li>
+            <li> IUCEE annual student forum certificate</li>
+        </ul>
+    </section>
+    <section class="About">
       <h2>Languages</h2>
       <ul>
         <li>English</li>
@@ -51,8 +63,15 @@
     <section class="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Project 1</h3>
-            <p>Prediction of Urban Water Quality using ubiquitous data </p>
+            
+            <p><b>Prediction of Urban Water Quality using ubiquitous data</b> </p>
+            <p>To forecast the water quality of a station by fusing multiple sources of urban data by using the water quality data and water hydraulic data reported by existing monitor stations and a variety of data sources we observed	 in the </p>
+            <p><b>IUCEE Annual Student Forum</b> </p>
+            <p> •	Participated in the IUCEE Student Forum at KLE Tech University, Hubli, Karnataka.
+                •	Built a Peltier module with the team "NO Veggie Waste."
+                •	Designed to help farmers reduce vegetable wastage during transportation.
+                •	Aimed at enhancing agricultural supply chain efficiency and reducing post-harvest losses.
+                </p>
         </div>
     </section>
 
@@ -61,59 +80,3 @@
     </footer>
 </body>
 </html>
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-//CSS Code
-/* Reset some default styles for body and header tags */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-header {
-    background-color: #3498db;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-top: 20px;
-}
-
-.about, .accomplishments, .projects {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
-}
-
-.accomplishments ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-.projects .project {
-    margin-top: 20px;
-}
-
-/* Style the footer */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: #fff;
-}
